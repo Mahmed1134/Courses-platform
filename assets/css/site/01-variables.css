@@ -1,0 +1,31 @@
+/* VARIABLES — أبيض وأسود فقط */
+:root{
+  --bg:#000;
+  --bg2:#0a0a0a;
+  --card:#0d0d0d;
+  --card2:#171717;
+  --border:#262626;
+  --text:#fff;
+  --muted:#a1a1a1;
+  --primary:#fff;
+  --on-primary:#000;
+  --danger:#fff;
+  --radius:16px;
+  --shadow:0 20px 60px rgba(0,0,0,.5);
+  --img-filter:none;
+  --ok:#22c55e;
+}
+body.light{
+  --bg:#fff;
+  --bg2:#fff;
+  --card:#fff;
+  --card2:#f4f4f4;
+  --border:#e4e4e4;
+  --text:#000;
+  --muted:#6b6b6b;
+  --primary:#000;
+  --on-primary:#fff;
+  --danger:#000;
+  --shadow:0 20px 60px rgba(0,0,0,.12);
+  --ok:#16a34a;
+}

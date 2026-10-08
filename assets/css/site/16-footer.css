@@ -1,0 +1,8 @@
+/* FOOTER */
+footer{border-top:1px solid var(--border);padding:60px 6% 24px}
+.footer-grid{max-width:1250px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.footer-about p{color:var(--muted);font-size:14px;max-width:360px;margin-top:14px}
+.footer-col h4{margin-bottom:16px}
+.footer-col a{display:block;color:var(--muted);font-size:13px;margin-bottom:9px;transition:.2s}
+.footer-col a:hover{color:var(--text)}
+.footer-bottom{max-width:1250px;margin:40px auto 0;padding-top:20px;border-top:1px solid var(--border);display:flex;justify-content:space-between;color:var(--muted);font-size:12px}

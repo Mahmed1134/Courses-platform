@@ -1,0 +1,6 @@
+/* SECTION */
+.section{max-width:1250px;margin:0 auto;padding:70px 6%}
+.section-head{text-align:center;margin-bottom:42px}
+.section-head .eyebrow{display:block;color:var(--muted);font-size:12px;font-weight:800;letter-spacing:3px}
+.section-head h2{font-size:36px;font-weight:900;margin:6px 0}
+.section-head p{color:var(--muted);max-width:640px;margin:0 auto;font-size:15px}

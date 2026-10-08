@@ -1,0 +1,16 @@
+/* NAVBAR */
+.nav{position:sticky;top:0;z-index:100;height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 6%;background:var(--bg);border-bottom:1px solid var(--border)}
+.brand{font-size:26px;font-weight:900;letter-spacing:2px}
+.brand span{color:var(--muted)}
+.nav-links{display:flex;align-items:center;justify-content:center;gap:28px}
+.nav-links a{color:var(--muted);font-size:14px;font-weight:700;transition:.2s}
+.nav-links a:hover{color:var(--text)}
+.nav-tools{display:flex;align-items:center;gap:8px}
+.icon-btn{min-width:40px;height:40px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;border:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer;font-size:15px;font-weight:800;transition:.2s}
+.icon-btn:hover{background:var(--text);color:var(--bg)}
+.login-button{border:1px solid var(--primary);padding:9px 18px;border-radius:10px;color:var(--on-primary);background:var(--primary);font-weight:800;font-size:13px;cursor:pointer;transition:.2s}
+.login-button:hover{opacity:.85}
+.user-box{display:flex;align-items:center;gap:8px}
+.user-name{border:1px solid var(--border);padding:6px 14px;border-radius:50px;font-size:13px;font-weight:700}
+.logout{border:1px solid var(--border);padding:6px 14px;border-radius:10px;font-size:12px;font-weight:700;transition:.2s}
+.logout:hover{background:var(--text);color:var(--bg)}

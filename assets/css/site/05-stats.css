@@ -1,0 +1,6 @@
+/* STATS */
+.stats{max-width:1100px;margin:0 auto;padding:40px 6% 70px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:center}
+.stat{padding:12px 10px;border-inline-start:1px solid var(--border)}
+.stat:first-child{border-inline-start:0}
+.stat strong{display:block;font-size:34px;font-weight:900}
+.stat span{color:var(--muted);font-size:13px}

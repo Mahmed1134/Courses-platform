@@ -1,0 +1,13 @@
+/* ARKA ADMIN LOGIN */
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;font-family:'Cairo',Tahoma,Arial,sans-serif;color:#fff;background:#000}
+.login-card{width:min(420px,100%);padding:40px 34px;border-radius:22px;background:#0b0b0b;border:1px solid #262626;text-align:center}
+.login-card h1{font-size:28px;font-weight:900}
+.subtitle{color:#a1a1a1;font-size:14px;margin:4px 0 26px}
+.login-card input{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #2b2b2b;background:#000;color:#fff;outline:none;font-size:14px;text-align:center;transition:.2s}
+.login-card input:focus{border-color:#fff}
+.login-card button{width:100%;margin-top:14px;padding:14px;border:1px solid #fff;border-radius:12px;background:#fff;color:#000;font-weight:800;font-size:14px;cursor:pointer;transition:.2s}
+.login-card button:hover{opacity:.85}
+.error{margin-bottom:14px;padding:10px;border-radius:10px;border:1px dashed #fff;color:#fff;font-size:13px;font-weight:700}
+.back{display:block;margin-top:22px;color:#a1a1a1;font-size:13px;transition:.2s}
+.back:hover{color:#fff}

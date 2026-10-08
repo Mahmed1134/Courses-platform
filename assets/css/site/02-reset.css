@@ -1,0 +1,18 @@
+/* RESET */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',sans-serif;color:var(--text);background:var(--bg);min-height:100vh;line-height:1.7;transition:background .3s,color .3s}
+a{color:inherit;text-decoration:none}
+button,input{font-family:inherit}
+img{max-width:100%;display:block}
+/* مهم: الـ reset كان بيمسح margin الخاص بالـ dialog فكان بيطلع في الزاوية */
+dialog{margin:auto}
+
+/* علامات التحقق بلونها */
+.ok{color:var(--ok);font-weight:900}
+
+/* دعم الإنجليزية (LTR) */
+[dir="ltr"] .search input{padding:14px 18px 14px 48px}
+[dir="ltr"] .search-icon{right:auto;left:16px}
+[dir="ltr"] .card-category{right:auto;left:12px}
+[dir="ltr"] .field{text-align:left}

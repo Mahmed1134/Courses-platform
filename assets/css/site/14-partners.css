@@ -1,0 +1,4 @@
+/* PARTNERS */
+.partners{display:grid;grid-template-columns:repeat(5,1fr);gap:15px}
+.partner{height:90px;display:flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:14px;color:var(--muted);font-size:18px;font-weight:900;transition:.2s}
+.partner:hover{color:var(--text);border-color:var(--text)}

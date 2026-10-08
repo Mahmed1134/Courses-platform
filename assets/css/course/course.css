@@ -1,0 +1,52 @@
+/* COURSE PAGE */
+.course-nav{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:16px 6%;background:var(--bg);border-bottom:1px solid var(--border)}
+.course-logo{font-size:26px;font-weight:900;letter-spacing:2px}
+.course-logo span{color:var(--muted)}
+.course-nav-links{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px}
+.course-user{color:var(--muted);font-weight:700}
+.course-link{padding:8px 14px;border-radius:10px;border:1px solid var(--border);font-weight:700;transition:.2s}
+.course-link:hover{background:var(--text);color:var(--bg)}
+.course-page{width:min(1150px,94vw);margin:35px auto 60px}
+.course-hero{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;align-items:center;padding:24px;border-radius:var(--radius);background:var(--card);border:1px solid var(--border)}
+.course-cover img,.course-cover-empty{width:100%;height:280px;border-radius:14px;object-fit:cover;filter:var(--img-filter)}
+.course-cover-empty{display:flex;align-items:center;justify-content:center;font-size:60px;background:var(--card2)}
+.course-badge{display:inline-block;padding:4px 14px;border-radius:999px;font-size:12px;font-weight:800;border:1px solid var(--border)}
+.course-info h1{margin:14px 0 8px;font-size:32px;font-weight:900;line-height:1.4}
+.course-instructor{color:var(--muted);font-weight:700}
+.course-status{display:inline-block;margin-top:18px;padding:9px 18px;border-radius:10px;font-weight:800;font-size:14px;border:1px solid var(--border);background:var(--card2)}
+.course-content{margin-top:28px;padding:26px;border-radius:var(--radius);background:var(--card);border:1px solid var(--border);text-align:center}
+.course-content h2{font-size:22px;font-weight:900;margin-bottom:18px}
+.course-content h2 small{color:var(--muted);font-size:14px;font-weight:700}
+.course-empty{text-align:center;padding:40px 10px;color:var(--muted);border:1px dashed var(--border);border-radius:14px}
+.course-empty-icon{font-size:14px;font-weight:900;letter-spacing:2px;margin-bottom:8px}
+.course-unsub{margin-top:22px;text-align:center}
+.unsub-btn{padding:10px 22px;border-radius:10px;cursor:pointer;font-weight:800;color:var(--muted);background:transparent;border:1px solid var(--border);transition:.2s}
+.unsub-btn:hover{color:var(--text);border-color:var(--text)}
+
+/* ---------- مشغل الدروس ---------- */
+.player-layout{display:grid;grid-template-columns:1.7fr 1fr;gap:20px;text-align:start;align-items:start}
+.player-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;border:1px solid var(--border)}
+.player-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.player-main h3{margin-top:14px;font-size:20px;font-weight:900}
+.lesson-side{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--card)}
+.lesson-side-head{padding:14px 16px;font-weight:900;border-bottom:1px solid var(--border);background:var(--card2)}
+.lesson-list{list-style:none;max-height:480px;overflow-y:auto}
+.lesson-item{width:100%;display:flex;align-items:center;gap:12px;padding:13px 16px;border:0;border-bottom:1px solid var(--border);background:transparent;color:var(--text);font-size:14px;font-weight:700;text-align:start;cursor:pointer;transition:.2s}
+.lesson-list li:last-child .lesson-item{border-bottom:0}
+.lesson-item:hover{background:var(--card2)}
+.lesson-item.active{background:var(--primary);color:var(--on-primary)}
+.lesson-num{flex:none;width:28px;height:28px;border-radius:50%;border:1px solid currentColor;display:flex;align-items:center;justify-content:center;font-size:12px}
+.lesson-name{flex:1}
+.lesson-done{visibility:hidden;font-size:15px}
+.lesson-item.done .lesson-done{visibility:visible}
+
+@media(max-width:900px){
+    .player-layout{grid-template-columns:1fr}
+    .lesson-list{max-height:320px}
+}
+
+@media(max-width:760px){
+  .course-hero{grid-template-columns:1fr;text-align:center}
+  .course-cover img,.course-cover-empty{height:210px}
+  .course-info h1{font-size:25px}
+}

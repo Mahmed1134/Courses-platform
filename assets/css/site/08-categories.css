@@ -1,0 +1,5 @@
+/* CATEGORIES */
+.filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.chip{border:1px solid var(--border);background:transparent;color:var(--muted);padding:8px 18px;border-radius:50px;cursor:pointer;font-size:13px;font-weight:700;transition:.2s}
+.chip:hover{color:var(--text);border-color:var(--text)}
+.chip.active{background:var(--primary);border-color:var(--primary);color:var(--on-primary)}

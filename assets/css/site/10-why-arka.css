@@ -1,0 +1,7 @@
+/* WHY ARKA */
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.feature{padding:28px;text-align:center;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);transition:.25s}
+.feature:hover{border-color:var(--text)}
+.feature-icon{font-size:14px;font-weight:900;letter-spacing:2px;color:var(--muted);margin-bottom:14px}
+.feature h3{margin-bottom:8px;font-size:18px}
+.feature p{color:var(--muted);font-size:14px}

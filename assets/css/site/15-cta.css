@@ -1,0 +1,5 @@
+/* CTA */
+.cta{max-width:1100px;margin:40px auto 90px;padding:70px 30px;text-align:center;border-radius:28px;background:var(--primary);color:var(--on-primary)}
+.cta h2{font-size:38px;font-weight:900;margin-bottom:10px}
+.cta p{opacity:.7;margin-bottom:26px}
+.cta .main-btn{background:var(--on-primary);color:var(--primary);border-color:var(--on-primary)}

@@ -1,0 +1,8 @@
+/* REVIEWS */
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:26px}
+.stars{letter-spacing:3px;margin-bottom:14px;font-size:14px}
+.review-text{color:var(--muted);font-size:14px;margin-bottom:20px;flex:1}
+.student{display:flex;align-items:center;gap:12px}
+.student img{width:44px;height:44px;border-radius:50%;object-fit:cover;filter:var(--img-filter)}
+.student small{display:block;color:var(--muted);font-size:11px}
